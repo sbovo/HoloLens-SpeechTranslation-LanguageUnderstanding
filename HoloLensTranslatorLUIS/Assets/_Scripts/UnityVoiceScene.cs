@@ -25,12 +25,20 @@ public class UnityVoiceScene : MonoBehaviour, IUnityVoiceScene {
     private bool OutputTextChanged = false;
 
 
+#if UNITY_WSA && !UNITY_EDITOR
+    private VoiceEngine Voice;
+#endif
+
     // Use this for initialization
     void Start ()
     {
         OutputTextMesh = OutputText.GetComponent<TextMesh>();
-        ModifyOutputText("Sorry ;-( The app is not supported in the Unity player.");
 
+#if UNITY_WSA && !UNITY_EDITOR // RUNNING ON WINDOWS
+        Voice = new VoiceEngine();
+#else                          // RUNNING IN UNITY
+        ModifyOutputText("Sorry ;-( The app is not supported in the Unity player.");
+#endif
     }
 
     // Update is called once per frame
