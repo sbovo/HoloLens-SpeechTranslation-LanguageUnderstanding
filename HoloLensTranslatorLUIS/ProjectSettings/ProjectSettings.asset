@@ -565,7 +565,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: HoloLensTranslatorLUIS
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensTranslatorLUIS\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
