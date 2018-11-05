@@ -55,7 +55,6 @@ public class LuisManager : MonoBehaviour {
     public IEnumerator SubmitRequestToLuis(string dictationResult, Action done, IMicrophoneManager unityApp)
     {
         string queryString = string.Concat(Uri.EscapeDataString(dictationResult));
-        System.Diagnostics.Debug.WriteLine(dictationResult);
         using (UnityWebRequest unityWebRequest = UnityWebRequest.Get(luisEndpoint + queryString))
         {
             yield return unityWebRequest.SendWebRequest();
@@ -98,16 +97,15 @@ public class LuisManager : MonoBehaviour {
             entityDic.Add(ed.type, ed.entity);
 
             message += $"Entity: {ed.entity} ({ed.type})\n";
-            System.Diagnostics.Debug.WriteLine(message);
         }
 
-        message += $"Intent: {aQuery.topScoringIntent.intent}";
+        message += $"Intent: {topIntent}";
         message = message.Replace("\\n", "\n");
         unityApp.ModifyOutputText(message);
         System.Diagnostics.Debug.WriteLine(message);
 
         // Depending on the topmost recognised intent, read the entities name
-        switch (aQuery.topScoringIntent.intent)
+        switch (topIntent)
         {
             case "ChangeObjectColor":
                 string targetForColor = null;

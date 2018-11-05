@@ -82,9 +82,9 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
     {
         StopCapturingAudio();
         ModifyOutputText(dictationCaptured);
-        Debug.Log("Dictation: " + dictationCaptured);
+        Debug.Log("Dictation captured: " + dictationCaptured);
         StartCoroutine(LuisManager.instance.SubmitRequestToLuis(dictationCaptured, StartCapturingAudio, this));
-        dictationText.text = dictationCaptured;
+        //dictationText.text = dictationCaptured;
     }
 
     private void DictationRecognizer_DictationError(string error, int hresult)
