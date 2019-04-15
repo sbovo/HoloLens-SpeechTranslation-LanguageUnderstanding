@@ -28,16 +28,11 @@ public class UnityVoiceScene : MonoBehaviour, IUnityVoiceScene {
     private GestureRecognizer recognizer;
 
 
-#if UNITY_WSA && !UNITY_EDITOR
-   // private VoiceEngine Voice;
-#endif
 
     // Use this for initialization
     async void Start ()
     {
         OutputTextMesh = OutputText.GetComponent<TextMesh>();
-
-
 
         recognizer = new GestureRecognizer();
         recognizer.SetRecognizableGestures(GestureSettings.Tap);

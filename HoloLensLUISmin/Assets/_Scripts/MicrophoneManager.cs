@@ -43,7 +43,6 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
     /// </summary>
     public void StartCapturingAudio()
     {
-        DictationRecognizer r = new DictationRecognizer();       
         if (dictationRecognizer == null)
         {
             dictationRecognizer = new DictationRecognizer
@@ -52,8 +51,11 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
                 AutoSilenceTimeoutSeconds = 5
             };
 
-            dictationRecognizer.DictationResult += DictationRecognizer_DictationResult;
-            dictationRecognizer.DictationError += DictationRecognizer_DictationError;
+            dictationRecognizer.DictationResult += 
+                DictationRecognizer_DictationResult;
+
+            dictationRecognizer.DictationError += 
+                DictationRecognizer_DictationError;
         }
         dictationRecognizer.Start();
         Debug.Log("Capturing Audio...");
@@ -83,8 +85,9 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
         StopCapturingAudio();
         ModifyOutputText(dictationCaptured);
         Debug.Log("Dictation captured: " + dictationCaptured);
-        StartCoroutine(LuisManager.instance.SubmitRequestToLuis(dictationCaptured, StartCapturingAudio, this));
-        //dictationText.text = dictationCaptured;
+        StartCoroutine(
+            LuisManager.instance.SubmitRequestToLuis(
+                dictationCaptured, StartCapturingAudio, this));
     }
 
     private void DictationRecognizer_DictationError(string error, int hresult)

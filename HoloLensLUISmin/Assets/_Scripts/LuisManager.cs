@@ -54,8 +54,10 @@ public class LuisManager : MonoBehaviour {
     /// </summary>
     public IEnumerator SubmitRequestToLuis(string dictationResult, Action done, IMicrophoneManager unityApp)
     {
-        string queryString = string.Concat(Uri.EscapeDataString(dictationResult));
-        using (UnityWebRequest unityWebRequest = UnityWebRequest.Get(luisEndpoint + queryString))
+        string queryString = string.Concat(
+            Uri.EscapeDataString(dictationResult));
+        using (UnityWebRequest unityWebRequest = 
+            UnityWebRequest.Get(luisEndpoint + queryString))
         {
             yield return unityWebRequest.SendWebRequest();
 
@@ -67,7 +69,9 @@ public class LuisManager : MonoBehaviour {
             {
                 try
                 {
-                    AnalysedQuery analysedQuery = JsonUtility.FromJson<AnalysedQuery>(unityWebRequest.downloadHandler.text);
+                    AnalysedQuery analysedQuery = 
+                        JsonUtility.FromJson<AnalysedQuery>(
+                            unityWebRequest.downloadHandler.text);
                     //analyse the elements of the response 
                     AnalyseResponseElements(analysedQuery, unityApp);
                 }
@@ -104,7 +108,8 @@ public class LuisManager : MonoBehaviour {
         unityApp.ModifyOutputText(message);
         System.Diagnostics.Debug.WriteLine(message);
 
-        // Depending on the topmost recognised intent, read the entities name
+        // Depending on the topmost recognised intent, 
+        // read the entities name
         switch (topIntent)
         {
             case "ChangeObjectColor":
