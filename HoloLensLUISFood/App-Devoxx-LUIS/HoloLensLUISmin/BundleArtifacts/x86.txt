@@ -1,0 +1,1 @@
+MainPackage=C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\HoloLensLUISmin_1.0.0.0_x86_Master.appx
