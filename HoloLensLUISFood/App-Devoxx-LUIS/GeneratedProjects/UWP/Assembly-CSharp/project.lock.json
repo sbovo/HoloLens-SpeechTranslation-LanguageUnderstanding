@@ -15915,12 +15915,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\sbovoLocal\\.nuget\\packages\\",
-      "outputPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+      "outputPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\"

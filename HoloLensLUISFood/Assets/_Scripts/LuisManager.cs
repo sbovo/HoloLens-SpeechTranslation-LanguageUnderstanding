@@ -6,10 +6,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 public class LuisManager : MonoBehaviour
 {
-         
-    public GameObject PrefabToUse;
-
-
     [Serializable] //this class represents the LUIS response
     public class AnalysedQuery
     {
@@ -43,7 +39,8 @@ public class LuisManager : MonoBehaviour
     public static LuisManager instance;
 
     //Substitute the value of luis Endpoint with your own End Point
-    string luisEndpoint = "https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/c33e39dd-863f-48fc-bad4-16e8a73b1148?verbose=true&timezoneOffset=60&subscription-key=a20a129b9c4d43238bf9c0a889a71762&q=";
+    string luisEndpoint = 
+        "https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/c33e39dd-863f-48fc-bad4-16e8a73b1148?verbose=true&timezoneOffset=60&subscription-key=a20a129b9c4d43238bf9c0a889a71762&q=";
 
     private void Awake()
     {
@@ -56,7 +53,10 @@ public class LuisManager : MonoBehaviour
     /// Call LUIS to submit a dictation result.
     /// The done Action is called at the completion of the method.
     /// </summary>
-    public IEnumerator SubmitRequestToLuis(string dictationResult, Action done, IMicrophoneManager unityApp)
+    public IEnumerator SubmitRequestToLuis(
+        string dictationResult, 
+        Action done, 
+        IMicrophoneManager unityApp)
     {
         string queryString = string.Concat(
             Uri.EscapeDataString(dictationResult));
@@ -92,18 +92,23 @@ public class LuisManager : MonoBehaviour
 
 
 
-    private void AnalyseResponseElements(AnalysedQuery aQuery, IMicrophoneManager unityApp)
+    private void AnalyseResponseElements(
+        AnalysedQuery aQuery, IMicrophoneManager unityApp)
     {
+        // INTENT
+        // ======
         string topIntent = aQuery.topScoringIntent.intent;
 
         // Create a dictionary of entities associated with their type
-        Dictionary<string, string> entityDic = new Dictionary<string, string>();
+        Dictionary<string, string> entityDic = 
+            new Dictionary<string, string>();
 
         string message = string.Empty;
+        // ENTITIES
+        // ========
         foreach (EntityData ed in aQuery.entities)
         {
             entityDic.Add(ed.type, ed.entity);
-
             message += $"Entity: {ed.entity} ({ed.type})\n";
         }
 
@@ -112,6 +117,21 @@ public class LuisManager : MonoBehaviour
         unityApp.ModifyOutputText(message);
         System.Diagnostics.Debug.WriteLine(message);
 
+
+        string targetObject = null;
+        string scaleValue = null;
+        foreach (var pair in entityDic)
+        {
+            if (pair.Key == "Food")
+            {
+                targetObject = pair.Value;
+            }
+            if (pair.Key == "Scale")
+            {
+                scaleValue = pair.Value;
+            }
+        }
+        
         // Depending on the topmost recognised intent, 
         // read the entities name
         switch (topIntent)
@@ -120,40 +140,28 @@ public class LuisManager : MonoBehaviour
                 unityApp.ModifyOutputText(":-( Not implemented yet...");
                 break;
 
-            case "hide.unhealthy":
-                StartCoroutine(CreateWall());
+            case "show.food":
+                Behaviours.instance.Show(targetObject);
                 break;
 
-            case "show.bananas":
-                StartCoroutine(BulkBananaCreation());
+            case "hide.food":
+                Behaviours.instance.Hide(targetObject);
+                break;
+
+            case "changesize.food":
+                if (scaleValue == "bigger")
+                {
+                    Behaviours.instance.UpSizeTarget(targetObject);
+                }
+                else if (scaleValue == "smaller")
+                {
+                    Behaviours.instance.DownSizeTarget(targetObject);
+                }
                 break;
         }
     }
 
-    private IEnumerator CreateWall()
-    {
-        var o = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        o.name = System.Guid.NewGuid().ToString();
-        o.transform.localScale = new Vector3(2f, 2f, 0.5f);
-        o.transform.position = new Vector3(-0.13f, 3f, 7.2f);
-        o.GetComponent<Renderer>().material.color = UnityEngine.Random.ColorHSV(0f, 1f, 0.6f, 1f, 1f, 1f, 0f, 0.2f);
-        o.AddComponent<Rigidbody>();
-        yield return 1;
-    }
+    
 
-    private IEnumerator BulkBananaCreation()
-    {
-        for (int i = 0; i < 80; i++)
-        {
-            StartCoroutine(CreateBanana());
-            yield return new WaitForSeconds(0.05f);
-        }
-        yield return 1;
-    }
-
-    private IEnumerator CreateBanana()
-    {
-        var o = Instantiate(PrefabToUse, new Vector3(0f, 10f, 8f), UnityEngine.Random.rotation);
-        yield return 1;
-    }
+    
 }

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>eda41bd6-3bd2-43bb-b46d-f4e710711ca1</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\HoloLensLUISmin.exe">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\HoloLensLUISmin.exe">
       <PackagePath>entrypoint\HoloLensLUISmin.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sbovoLocal\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -349,7 +349,7 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2017.4.20f2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\UnityEngineProxy.dll">
       <PackagePath>UnityEngineProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Unprocessed\WinRTLegacy.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Unprocessed\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2017.4.20f2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\UnityPlayer.dll">
@@ -373,64 +373,64 @@
     <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2017.4.20f2\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x86\Debug\WinRTBridge.winmd">
       <PackagePath>WinRTBridge.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Resource.res">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Resource.res">
       <PackagePath>Resource.res</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\boot.config">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\globalgamemanagers">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\level0">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\level0.resS">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Data\managedAssemblies.txt">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
@@ -439,169 +439,169 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UIElementsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TilemapModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TextRenderingModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TerrainPhysicsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpriteMaskModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpriteShapeModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.StyleSheetsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TerrainModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UIModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.WindModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.WebModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VRModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VideoModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VehiclesModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestWWWModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UNETModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityAnalyticsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityConnectModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestAudioModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestTextureModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SharedInternalsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.DirectorModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.CrashReportingModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.CoreModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ClothModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AudioModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AccessibilityModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AIModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AnimationModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ARModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AssetBundleModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.GameCenterModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ParticlesLegacyModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ParticleSystemModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.PerformanceReportingModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Physics2DModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.PhysicsModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ScreenCaptureModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.GridModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ImageConversionModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.IMGUIModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.InputModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.JSONSerializeModule.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Timeline.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\nunit.framework.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UI.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpatialTracking.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.HoloLens.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.StandardEvents.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Networking.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\Assembly-CSharp.dll">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\Core\HoloLensLUISmin.exe">
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Debug\Core\HoloLensLUISmin.exe">
       <PackagePath>HoloLensLUISmin.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

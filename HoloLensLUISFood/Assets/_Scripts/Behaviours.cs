@@ -7,9 +7,9 @@ public class Behaviours : MonoBehaviour {
     public static Behaviours instance;
 
     // the following variables are references to possible targets
-    public GameObject sphere;
-    public GameObject cylinder;
-    public GameObject cube;
+    public GameObject banana;
+    public GameObject cookie;
+    public GameObject apple;
     internal GameObject gazedTarget;
 
     void Awake()
@@ -20,42 +20,26 @@ public class Behaviours : MonoBehaviour {
 
 
     /// <summary>
-    /// Changes the color of the target GameObject by providing the name of the object
-    /// and the name of the color
+    /// Show more target GameObjects by providing the name of the object
     /// </summary>
-    public void ChangeTargetColor(string targetName, string colorName)
+    public void Show(string targetName)
     {
         GameObject foundTarget = FindTarget(targetName);
         if (foundTarget != null)
         {
-            Debug.Log("Changing color " + colorName + " to target: " + foundTarget.name);
+            StartCoroutine(BulkCreation(foundTarget));
+        }
+    }
 
-            switch (colorName)
-            {
-                case "blue":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.blue;
-                    break;
-
-                case "red":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.red;
-                    break;
-
-                case "yellow":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.yellow;
-                    break;
-
-                case "green":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.green;
-                    break;
-
-                case "white":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.white;
-                    break;
-
-                case "black":
-                    foundTarget.GetComponent<Renderer>().material.color = Color.black;
-                    break;
-            }
+    /// <summary>
+    /// Hide the target GameObject by providing the name of the object
+    /// </summary>
+    public void Hide(string targetName)
+    {
+        GameObject foundTarget = FindTarget(targetName);
+        if (foundTarget != null)
+        {
+            StartCoroutine(CreateWall(foundTarget));
         }
     }
 
@@ -65,7 +49,7 @@ public class Behaviours : MonoBehaviour {
     public void DownSizeTarget(string targetName)
     {
         GameObject foundTarget = FindTarget(targetName);
-        foundTarget.transform.localScale -= new Vector3(0.5F, 0.5F, 0.5F);
+        foundTarget.transform.localScale -= new Vector3(1F, 1F, 1F);
     }
 
     /// <summary>
@@ -74,7 +58,7 @@ public class Behaviours : MonoBehaviour {
     public void UpSizeTarget(string targetName)
     {
         GameObject foundTarget = FindTarget(targetName);
-        foundTarget.transform.localScale += new Vector3(0.5F, 0.5F, 0.5F);
+        foundTarget.transform.localScale += new Vector3(1F, 1F, 1F);
     }
 
 
@@ -88,16 +72,16 @@ public class Behaviours : MonoBehaviour {
 
         switch (name)
         {
-            case "sphere":
-                targetAsGO = sphere;
+            case "banana":
+                targetAsGO = banana;
                 break;
 
-            case "cylinder":
-                targetAsGO = cylinder;
+            case "cookie":
+                targetAsGO = cookie;
                 break;
 
-            case "cube":
-                targetAsGO = cube;
+            case "apple":
+                targetAsGO = apple;
                 break;
 
             case "this": // as an example of target words that the user may use when looking at an object
@@ -112,5 +96,38 @@ public class Behaviours : MonoBehaviour {
         }
         return targetAsGO;
     }
-    
+
+
+
+
+
+    private IEnumerator BulkCreation(GameObject prefab)
+    {
+        for (int i = 0; i < 80; i++)
+        {
+            StartCoroutine(CreateObject(prefab));
+            yield return new WaitForSeconds(0.05f);
+        }
+        yield return 1;
+    }
+
+    private IEnumerator CreateObject(GameObject prefab)
+    {
+        var o = Instantiate(prefab, new Vector3(0f, 10f, 8f), UnityEngine.Random.rotation);
+        yield return 1;
+    }
+
+
+    private IEnumerator CreateWall(GameObject target)
+    {
+        var o = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        o.name = System.Guid.NewGuid().ToString();
+        o.transform.localScale = new Vector3(2f, 2f, 0.5f);
+        //o.transform.position = new Vector3(-0.13f, 3f, 7.2f);
+        o.transform.position = target.transform.localPosition - Vector3.back * 0.1f;
+        o.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+        o.GetComponent<Renderer>().material.color = UnityEngine.Random.ColorHSV(0f, 1f, 0.6f, 1f, 1f, 1f, 0f, 0.2f);
+        o.AddComponent<Rigidbody>();
+        yield return 1;
+    }
 }

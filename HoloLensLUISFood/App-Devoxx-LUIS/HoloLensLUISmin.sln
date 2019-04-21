@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloLensLUISmin", "HoloLensLUISmin\HoloLensLUISmin.csproj", "{13A45C13-3265-47B8-BC48-A553B569DF55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\_Temp\HoloLensLUISmin\App-Devoxx-LUIS\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{498E916D-EB1D-475F-8E28-5C45DD47E501}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj", "{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,29 +47,29 @@ Global
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.ActiveCfg = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Build.0 = Release|x86
 		{13A45C13-3265-47B8-BC48-A553B569DF55}.Release|x86.Deploy.0 = Release|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|ARM.ActiveCfg = Debug|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|ARM.Build.0 = Debug|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|x64.ActiveCfg = Debug|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|x64.Build.0 = Debug|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|x86.ActiveCfg = Debug|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Debug|x86.Build.0 = Debug|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|ARM.ActiveCfg = Master|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|ARM.Build.0 = Master|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|x64.ActiveCfg = Master|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|x64.Build.0 = Master|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|x86.ActiveCfg = Master|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Master|x86.Build.0 = Master|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|ARM.ActiveCfg = Release|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|ARM.Build.0 = Release|ARM
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|x64.ActiveCfg = Release|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|x64.Build.0 = Release|x64
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|x86.ActiveCfg = Release|x86
-		{498E916D-EB1D-475F-8E28-5C45DD47E501}.Release|x86.Build.0 = Release|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|ARM.Build.0 = Debug|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|x64.ActiveCfg = Debug|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|x64.Build.0 = Debug|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|x86.ActiveCfg = Debug|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Debug|x86.Build.0 = Debug|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|ARM.ActiveCfg = Master|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|ARM.Build.0 = Master|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|x64.ActiveCfg = Master|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|x64.Build.0 = Master|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|x86.ActiveCfg = Master|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Master|x86.Build.0 = Master|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|ARM.ActiveCfg = Release|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|ARM.Build.0 = Release|ARM
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|x64.ActiveCfg = Release|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|x64.Build.0 = Release|x64
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|x86.ActiveCfg = Release|x86
+		{7ACC4822-4C94-4CB9-82DC-E4CF494A28B2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {46C5EC60-7337-4B62-B219-1FA68ADF7031}
+		SolutionGuid = {B840B675-7449-4FFB-94E1-62E4A72E0FA7}
 	EndGlobalSection
 EndGlobal

@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="HoloLensLUISmin" Publisher="CN=DefaultCompany" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="DevoxxLUIS" Publisher="CN=DefaultCompany" Version="1.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="eda41bd6-3bd2-43bb-b46d-f4e710711ca1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>HoloLensLUISmin</DisplayName>
+    <DisplayName>DevoxxLUIS</DisplayName>
     <PublisherDisplayName>DefaultCompany</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -24,7 +24,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="HoloLensLUISmin.exe" EntryPoint="HoloLensLUISmin.App">
-      <uap:VisualElements DisplayName="HoloLensLUISmin" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="HoloLensLUISmin" BackgroundColor="transparent">
+      <uap:VisualElements DisplayName="DevoxxLUIS" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="DevoxxLUIS" BackgroundColor="transparent">
         <uap:DefaultTile ShortName="HoloLensLUISmin" Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
         <uap:InitialRotationPreference>

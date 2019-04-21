@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloLensLUISmin", "HoloLensLUISmin.csproj", "{A36C3B12-BBA8-3F59-32F6-05B47C0AA9A4}"
 EndProject
 Global

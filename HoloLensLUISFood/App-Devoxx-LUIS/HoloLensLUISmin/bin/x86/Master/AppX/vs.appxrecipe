@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SBOVO00</Machine>
+    <WindowsUser>sbovoLocal</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Master|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>eda41bd6-3bd2-43bb-b46d-f4e710711ca1</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\obj\x86\Master\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F3BA81C7021674B7999B6B79D008DFC54766E7DA7A28A3739B38CF1572445872</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>DevoxxLUIS_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>DevoxxLUIS_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>DevoxxLUIS</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-19T13:51:24.127</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:35:41.065</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:35:06.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:35:30.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:35:22.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:34:52.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-18T07:34:35.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2019-02-10T11:52:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\BridgeInterface.pdb">
+      <PackagePath>BridgeInterface.pdb</PackagePath>
+      <Modified>2019-02-10T11:47:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2019-02-10T11:52:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-07-22T21:08:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2019-04-18T23:39:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2019-04-18T23:39:49.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2019-04-18T23:39:49.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2019-04-18T23:39:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2019-04-18T23:39:47.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2019-04-18T23:40:46.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2019-02-10T11:07:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2019-04-18T23:39:50.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2019-04-18T23:39:49.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2019-04-18T23:39:49.870</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\HoloLensLUISmin.dll">
+      <PackagePath>HoloLensLUISmin.dll</PackagePath>
+      <Modified>2019-04-19T13:51:18.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\HoloLensLUISmin.exe">
+      <PackagePath>HoloLensLUISmin.exe</PackagePath>
+      <Modified>2019-04-19T13:51:23.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\HoloLensLUISmin.pdb">
+      <PackagePath>HoloLensLUISmin.pdb</PackagePath>
+      <Modified>2019-04-19T13:51:23.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\Resource.res">
+      <PackagePath>Resource.res</PackagePath>
+      <Modified>2019-04-18T23:40:46.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-04-19T13:47:25.660</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2019-02-10T11:52:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\UnityEngineDelegates.pdb">
+      <PackagePath>UnityEngineDelegates.pdb</PackagePath>
+      <Modified>2019-02-10T11:47:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\UnityEngineDelegates.winmd">
+      <PackagePath>UnityEngineDelegates.winmd</PackagePath>
+      <Modified>2019-02-10T11:52:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2019-02-10T11:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2019-02-10T11:52:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\WinRTBridge.winmd">
+      <PackagePath>WinRTBridge.winmd</PackagePath>
+      <Modified>2019-02-10T11:52:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2019-04-19T13:48:50.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\_Dev\GitHub\sbovo\HoloLens-SpeechTranslation-LanguageUnderstanding\HoloLensLUISFood\App-Devoxx-LUIS\HoloLensLUISmin\bin\x86\Master\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2019-04-19T13:48:50.812</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.26706.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\">
+      <Name>Microsoft.NET.Native.Framework.1.3</Name>
+      <Version>1.3.24211.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.3, MinVersion = 1.3.24211.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x64\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\">
+      <Name>Microsoft.NET.Native.Runtime.1.4</Name>
+      <Version>1.4.24201.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.4, MinVersion = 1.4.24201.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.4\1.4\.\AppX\x86\Microsoft.NET.Native.Runtime.1.4.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

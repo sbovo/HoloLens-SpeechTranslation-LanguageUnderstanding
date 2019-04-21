@@ -15990,12 +15990,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\HoloLensLUISmin\\HoloLensLUISmin.csproj",
+      "projectUniqueName": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\HoloLensLUISmin\\HoloLensLUISmin.csproj",
       "projectName": "HoloLensLUISmin",
-      "projectPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\HoloLensLUISmin\\HoloLensLUISmin.csproj",
-      "projectJsonPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\HoloLensLUISmin\\project.json",
+      "projectPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\HoloLensLUISmin\\HoloLensLUISmin.csproj",
+      "projectJsonPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\HoloLensLUISmin\\project.json",
       "packagesPath": "C:\\Users\\sbovoLocal\\.nuget\\packages\\",
-      "outputPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\HoloLensLUISmin\\obj\\",
+      "outputPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\HoloLensLUISmin\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\"
@@ -16013,8 +16013,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\_Temp\\HoloLensLUISmin\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\_Dev\\GitHub\\sbovo\\HoloLens-SpeechTranslation-LanguageUnderstanding\\HoloLensLUISFood\\App-Devoxx-LUIS\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }

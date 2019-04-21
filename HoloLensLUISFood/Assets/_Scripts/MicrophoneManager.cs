@@ -12,10 +12,13 @@ public interface IMicrophoneManager
 public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
 {
 
-
-    public static MicrophoneManager instance; //help to access instance of this object
-    private DictationRecognizer dictationRecognizer;  //Component converting speech to text
-    public TextMesh dictationText; //a UI object used to debug dictation result
+    #region members
+    public static MicrophoneManager instance; 
+    //help to access instance of this object
+    private DictationRecognizer dictationRecognizer;  
+    //Component converting speech to text
+    public TextMesh dictationText; 
+    //a UI object used to debug dictation result
     // string to be affected to the TextMesh object
     private string OutputTextString = string.Empty;
     // Indicate if we have to Update the text displayed
@@ -26,6 +29,7 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
         // allows this class instance to behave like a singleton
         instance = this;
     }
+    #endregion
 
     void Start()
     {
@@ -80,7 +84,8 @@ public class MicrophoneManager : MonoBehaviour, IMicrophoneManager
     /// This method will stop listening for audio, send a request to the LUIS service 
     /// and then start listening again.
     /// </summary>
-    private void DictationRecognizer_DictationResult(string dictationCaptured, ConfidenceLevel confidence)
+    private void DictationRecognizer_DictationResult(
+        string dictationCaptured, ConfidenceLevel confidence)
     {
         StopCapturingAudio();
         ModifyOutputText(dictationCaptured);
